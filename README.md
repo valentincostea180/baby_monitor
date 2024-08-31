@@ -1,6 +1,5 @@
 Developed a baby monitor system using Arduino, integrating multiple sensors and communication modules.
 
-
 • Implemented ultrasonic, gas, and fire sensors to monitor environmental safety parameters in real-time.
 
 • Utilized LCD displays for user-friendly temperature, humidity, and safety alerts.
