@@ -1,7 +1,5 @@
-Developed a baby monitor system using Arduino, integrating multiple sensors and communication modules.
+My final project for the Honewyell's FutureShapers Summer School is a Baby Monitor System, inspired by advanced environmental monitoring solutions. The system consists of two interconnected Arduino Uno modules. The first module is dedicated to environmental monitoring, measuring and displaying factors such as temperature, humidity, distance, gas levels, and fire detection - being programmed by my buddy, I slightly participating in the making of it. It also communicates with the second module through RX-TX serial communication. The second module, the one I built and coded, serves as a user interface and control panel, featuring a keypad for user input and a servo motor for mechanical control.
 
-• Implemented ultrasonic, gas, and fire sensors to monitor environmental safety parameters in real-time.
+The environmental monitor module leverages a DHT11 sensor to track temperature and humidity, which are shown on an LCD display. It uses an ultrasonic sensor for distance measurement and includes gas and fire sensors for safety alerts. The module also incorporates a buzzer to provide audio notifications based on sensor readings.
 
-• Utilized LCD displays for user-friendly temperature, humidity, and safety alerts.
-
-• Established secure communication between two Arduino modules via hardware serial, enabling remote monitoring and control.
+The control panel module enables user interaction via a keypad for setting and entering passwords. It controls a servo motor that responds to user commands and sound detection. The system features a user-friendly interface for managing environmental data and controlling the baby monitor setup, making it a comprehensive solution for monitoring and control.
